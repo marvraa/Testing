@@ -1,0 +1,168 @@
+
+.hacker_group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#services_text {
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 3;
+}
+
+#services {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 600px; /* Optional: Set a maximum width for the section */
+}
+
+.service_images {
+    max-width: 20vw;
+    max-height: 20vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.payment_images {
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+ body {
+    text-align: center !important;
+    
+    color: white;
+}
+
+.grouphacker {
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.custom-bg {
+    background-color:rgba(10, 10, 10, 0.5); 
+}
+
+iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    }
+  
+h1:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  background-color: #212121;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(10, 10, 10, 0.9);
+}
+
+.nav-item {
+  color: #83818c;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 0 6px;
+  z-index: 1;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+.nav-item:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #dfe2ea;
+  border-radius: 8px 8px 0 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.nav-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+.nav-item:not(.is-active):hover {
+  color: #fcfcfc;
+}
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  transition: 0.4s;
+  height: 5px;
+  z-index: 1;
+  border-radius: 8px 8px 0 0;
+}
+
+@media (max-width: 580px) {
+  .nav {
+    overflow: auto;
+  }
+}
